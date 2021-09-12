@@ -3,8 +3,8 @@
   roles:
   - role: '{{ playbook_dir }}'
   tasks:
-  - command: /usr/local/bin/pgo version --client
+  - command: /usr/local/bin/pgo --help
     register: pgo_test_output
-  - name: pgo version --client
+  - name: pgo --help
     debug:
-      msg: '{{ pgo_test_output }}'
+      msg: '{{ pgo_test_output.stdout }}'
