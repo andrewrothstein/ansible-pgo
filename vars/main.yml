@@ -1,0 +1,6 @@
+---
+# vars file for pgo
+pgo_url: '{{ pgo_mirror }}/v{{ pgo_ver }}/pgo{{ pgo_dotexe }}'
+pgo_checksum: '{{ pgo_checksums[pgo_ver][pgo_os] }}'
+pgo_exe: '{{ pgo_install_dir }}/pgo{{ pgo_dotexe }}-{{ pgo_ver }}'
+pgo_link: '{{ pgo_install_dir }}/pgo'

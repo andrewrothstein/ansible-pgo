@@ -1,0 +1,10 @@
+---
+- hosts: all
+  roles:
+  - role: '{{ playbook_dir }}'
+  tasks:
+  - command: /usr/local/bin/pgo version --client
+    register: pgo_test_output
+  - name: pgo version --client
+    debug:
+      msg: '{{ pgo_test_output }}'
