@@ -32,5 +32,4 @@ galaxy_info:
   role_name: pgo
 
 dependencies:
-  - role: andrewrothstein.alpine-glibc-shim
-    version: v2.0.15
+  - andrewrothstein.alpine-glibc-shim
