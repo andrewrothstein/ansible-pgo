@@ -1,6 +1,6 @@
 ---
 # defaults file for pgo
-pgo_ver: 4.5.4
+pgo_ver: 4.7.4
 pgo_os: linux
 pgo_dotexe: ''
 pgo_install_dir: /usr/local/bin
@@ -13,3 +13,10 @@ pgo_checksums:
     mac: sha256:5acca702d6ccb712b471600c43ab48ce7821d773205cd38e92cecc045613126c
     # https://github.com/CrunchyData/postgres-operator/releases/download/v4.5.4/pgo.exe
     windows: sha256:cb0e85a1e8204f9d09c46f4dc6e707d04cd5a887e232eecd0fd03af99cfaa6d1
+  '4.7.4':
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.4/pgo
+    linux: sha256:50e500a7ad3bc6981dcba99917e72ec4b7283b57690fa447c54a96c64ec68a63
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.4/pgo-mac
+    mac: sha256:b529df28be894e760c9e1e4f467154163d17629f0555c2ca43fb3819d21cda72
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.4/pgo.exe
+    windows: sha256:b33c899443b073876891c78b0bbbc1731f82d0104b49a874be0d28c8cdaa30c9
