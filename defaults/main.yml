@@ -1,6 +1,6 @@
 ---
 # defaults file for pgo
-pgo_ver: 4.7.7
+pgo_ver: 4.7.10
 pgo_os_map:
   Linux: linux
   Darwin: mac
@@ -40,3 +40,24 @@ pgo_checksums:
     mac: sha256:c067ffb6f1af0d57dbaacb843ba1f7f67b43f093edbc6f99ba6d8b0a1fd76db4
     # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.7/pgo.exe
     windows: sha256:2d6080bc57e4e9cc6bde7c3de25ac806b800a7f13a03d74cd4b13fca30526c49
+  '4.7.8':
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.8/pgo
+    linux: sha256:09783d5d3b065eb75cff0cf571592eb2e68cba6bb990356274d0b8a8b2a99a39
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.8/pgo-mac
+    mac: sha256:615e682a9a9a5f66311b4931300270190823cd4221c79d35ab8d4176d6f791c0
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.8/pgo.exe
+    windows: sha256:a90cd48fd7f8830d678351ae0408620cb614c0ef2a7cc2cf22749955dda0f568
+  '4.7.9':
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.9/pgo
+    linux: sha256:71aa5b4bf27eaa8b3680cdca54d9b9496dca28e5cfcc0998744df8006fda8f59
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.9/pgo-mac
+    mac: sha256:5c38b38bc392c36b4b39660d9a08dc58a22082c5a70593cb3c4739e14df5ad31
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.9/pgo.exe
+    windows: sha256:722e52f0678a15c2daefb48e5ac28b8c49560c19f6a15ea4db703716281b37b9
+  '4.7.10':
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.10/pgo
+    linux: sha256:971d60fe49caf6d2e65d55a47457615f7f8ff0104d9202654027045d3ba3e1b6
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.10/pgo-mac
+    mac: sha256:965285d512cdffc60955dd4cbf24c3981c40646a1d2dfed63fa63a59d1c9be24
+    # https://github.com/CrunchyData/postgres-operator/releases/download/v4.7.10/pgo.exe
+    windows: sha256:9f6cc0c9e9be0049be424c9df3f773394a116cca4b0ca2cb1874a2f509e63c92
